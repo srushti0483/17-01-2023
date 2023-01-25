@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Internal CSS</title>
+		<style>
+			.main {
+				text-align:center;
+			}
+			.sou{
+				color:#009900;
+				font-size:100px;
+				font-style:italic;
+			}
+			.sliveroakuniversity {
+				font-style:bold;
+				font-size:40px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class = "main">
+			<div class ="sou">sliver oak university</div>
+			
+			<div class ="sliveroakuniversity">
+				sliver oak university is a very big.There are many coures are in university.
+			</div>
+		</div>
+	</body>
+</html>			
