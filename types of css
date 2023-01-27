@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of CSS</title>
+    <title>CSS Chapter 1</title>
+		<style type="text/css">
+			div{background-color:rgb(117, 198, 117);height:200px;width:200px;color:rgb(10, 9, 9);font-size:25px;}
+			.divCls{background-color:rgb(124, 124, 205);height:200px;width:200px;color:rgb(18, 18, 18);font-size:25px;}
+			
+		</style>
+</head>
+<body>
+    <div style="background-color:rgb(176, 125, 125);height:200px;width:200px;color:rgb(12, 12, 12);font-size:25px;">Inline Stylesheet</div><hr/>
+		<div>Internal Stylesheet - Tag Name</div><hr/>
+		<div>Internal Stylesheet - Tag Name</div><hr/>
+		<div>Internal Stylesheet - Tag Name</div><hr/>
+		<div class="divCls">Internal Stylesheet - Class Name</div><hr/>
+		<div class="divCls">Internal Stylesheet - Class Name</div><hr/>
+		<div style="background-color:rgb(98, 153, 168);" class="divCls" id="D1">Internal Stylesheet - Id</div>
+        <hr/>
+    
+</body>
+</html>
